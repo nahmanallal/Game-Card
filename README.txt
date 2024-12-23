@@ -1,48 +1,29 @@
 GAME CARD
 
-/* BUT */
+/** LEVELS **/
 
-Règles de Jeu:
+Each question has a level: Level 1: Easy Level 2: Medium Level 3: Not Easy
 
-Le but est de répondre correctement à toutes les questions possibles.
+/** POINT SYSTEM **/
 
-4 thèmes différents sont proposés:
+Types of Questions:
 
-        -Sport
-        -Culture
-        -Histoire
-        -Sciences
-        
-/* NIVEAUX */    
+Multiple Choice (MCQ):
+Level 1: +35 points
+Level 2: +85 points
+Level 3: +250 points
+Incorrect answer: -30 points
+Text Questions:
+Level 1: +65 points
+Level 2: +165 points
+Level 3: +550 points
+Incorrect answer: -20 points
+/** STATUS **/
 
-Chaque question possède un niveau :
-            level 1: facile
-            level 2: moyen
-            level 3: pas évident
-/* POINTS */         
-Système de points:
+At the beginning, each user has the status "beginner".
 
-    TYPE : QCM
-            level 1 : +35 points
-            level 2 : +85 points
-            level 3 : +250 points
-            mauvaise réponse : -30 points
-            
-    TYPE : TEXTE
-            level 1 : +65 points
-            level 2 : +165 points
-            level 3 : +550 points
-            mauvaise réponse : -20 points
-            
-/* STATUT */
+If the user's highest score (across all themes) exceeds 1200 points, their status changes to "expert".
 
-Au départ chaque utilisateur possède le statut "beginner" (débutant).
-
-Si le meilleur score (tous thèmes confondus) de l'utilisateur est supérieur à 1200 points alors son statut passe à "expert".
-
-exemple: Si sur le thème "Sport" il a obtenu 500 points mais que sur le thème "Histoire" il a obtenu 1300 points il est                consideré comme un "expert".
-
-Ce statut lui permet alors de pouvoir ajouter/supprimer des nouvelles questions.
-
+Example: If the user scored 500 points in the "Sports" theme but obtained 1300 points in the "History" theme, they are considered an "expert".
             
 
